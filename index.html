@@ -9,12 +9,48 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700;900&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="figma-overrides.css?v=7">
+  <link rel="stylesheet" href="figma-overrides.css?v=8">
   <link rel="stylesheet" href="scroll-fix.css">
   <link rel="stylesheet" href="figma-sections.css">
   <link rel="stylesheet" href="figma-remaining.css?v=4">
 </head>
 <body>
+<svg class="figma-filters" aria-hidden="true" width="0" height="0" focusable="false">
+  <defs>
+    <filter id="intro-title-figma-effects" x="-50%" y="-100%" width="200%" height="300%" color-interpolation-filters="sRGB">
+      <!-- Figma: four white drop shadows, 0/0, blur 6, opacities 1/.25/1/1. -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="title-outer-blur"/>
+      <feFlood flood-color="#fff" flood-opacity="1" result="title-white-100-a"/>
+      <feComposite in="title-white-100-a" in2="title-outer-blur" operator="in" result="title-shadow-a"/>
+      <feFlood flood-color="#fff" flood-opacity=".25" result="title-white-25"/>
+      <feComposite in="title-white-25" in2="title-outer-blur" operator="in" result="title-shadow-b"/>
+      <feFlood flood-color="#fff" flood-opacity="1" result="title-white-100-c"/>
+      <feComposite in="title-white-100-c" in2="title-outer-blur" operator="in" result="title-shadow-c"/>
+      <feFlood flood-color="#fff" flood-opacity="1" result="title-white-100-d"/>
+      <feComposite in="title-white-100-d" in2="title-outer-blur" operator="in" result="title-shadow-d"/>
+      <feMerge result="title-with-outer-shadow">
+        <feMergeNode in="title-shadow-a"/>
+        <feMergeNode in="title-shadow-b"/>
+        <feMergeNode in="title-shadow-c"/>
+        <feMergeNode in="title-shadow-d"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+      <!-- Figma: black inner shadow, 0/0, blur .8, opacity 1. -->
+      <feComponentTransfer in="SourceAlpha" result="title-alpha-inverse">
+        <feFuncA type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+      <feGaussianBlur in="title-alpha-inverse" stdDeviation=".4" result="title-inner-blur"/>
+      <feComposite in="title-inner-blur" in2="SourceAlpha" operator="in" result="title-inner-mask"/>
+      <feFlood flood-color="#000" flood-opacity="1" result="title-inner-color"/>
+      <feComposite in="title-inner-color" in2="title-inner-mask" operator="in" result="title-inner-shadow"/>
+      <feMerge>
+        <feMergeNode in="title-with-outer-shadow"/>
+        <feMergeNode in="title-inner-shadow"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
 <main class="page">
   <header class="header">
     <img src="assets/logo.png" alt="弁護士法人アビエス法律事務所" class="logo">
