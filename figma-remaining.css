@@ -158,18 +158,18 @@ footer {
   font: 500 15px/normal 'Zen Kaku Gothic New',sans-serif;
 }
 
-.requirements-card > section:nth-of-type(1) { top: 50px; height: 64px; }
-.requirements-card > section:nth-of-type(2) { top: 139px; height: 64px; }
-.requirements-card > section:nth-of-type(3) { top: 228px; height: 278px; }
-.requirements-card > section:nth-of-type(4) { top: 556px; height: 108px; }
-.requirements-card > section:nth-of-type(5) { top: 689px; height: 152px; }
-.requirements-card > section:nth-of-type(6) { top: 891px; height: 86px; }
-.requirements-card > section:nth-of-type(7) { top: 1002px; height: 262px; }
-.requirements-card > section:nth-of-type(8) { top: 1289px; height: 108px; }
-.requirements-card > section:nth-of-type(9) { top: 1422px; height: 111px; }
-.requirements-card > section:nth-of-type(10) { top: 1558px; height: 65px; }
-.requirements-card > section:nth-of-type(11) { top: 1673px; height: 262px; }
-.requirements-card > section:nth-of-type(12) { top: 1960px; height: 64px; }
+.requirements-card > section:nth-of-type(1) { top: 50px; width: 170px; height: 64px; }
+.requirements-card > section:nth-of-type(2) { top: 139px; width: 130px; height: 64px; }
+.requirements-card > section:nth-of-type(3) { top: 228px; width: 319px; height: 278px; }
+.requirements-card > section:nth-of-type(4) { top: 556px; width: 339px; height: 108px; }
+.requirements-card > section:nth-of-type(5) { top: 689px; width: 280px; height: 152px; }
+.requirements-card > section:nth-of-type(6) { top: 891px; width: 319px; height: 86px; }
+.requirements-card > section:nth-of-type(7) { top: 1002px; width: 280px; height: 262px; }
+.requirements-card > section:nth-of-type(8) { top: 1289px; width: 280px; height: 108px; }
+.requirements-card > section:nth-of-type(9) { top: 1422px; width: 312px; height: 111px; }
+.requirements-card > section:nth-of-type(10) { top: 1558px; width: 312px; height: 65px; }
+.requirements-card > section:nth-of-type(11) { top: 1673px; width: 339px; height: 262px; }
+.requirements-card > section:nth-of-type(12) { top: 1960px; width: 339px; height: 64px; }
 
 .requirements-card h3 {
   display: inline-flex;
@@ -200,6 +200,8 @@ footer {
 .requirements-card > section:nth-of-type(3) p:last-child { font-size: 12px; }
 .requirements-card > section:nth-of-type(9) p,
 .requirements-card > section:nth-of-type(10) p { font-size: 16px; }
+.requirements-card > section:nth-of-type(9) p,
+.requirements-card > section:nth-of-type(10) p { line-height: 23px; }
 
 .requirements-card hr {
   position: absolute;
