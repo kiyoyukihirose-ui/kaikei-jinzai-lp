@@ -111,42 +111,69 @@
 .thanks__fade--bottom { top: 218px; background: linear-gradient(to bottom,rgba(255,255,255,0),#fff); }
 
 footer {
+  position: relative;
   width: 393px;
   height: 215px;
-  padding-top: 25px;
+  padding: 0;
   background: linear-gradient(127.2deg,#46b9bd 20.658%,#0099b4 79.342%);
   color: #fff;
-  font: 500 16px/normal Inter,sans-serif;
+  font: 500 16px/normal 'Zen Kaku Gothic New',sans-serif;
   text-align: center;
   text-shadow: 0 0 4px rgba(0,0,0,.25);
+}
+
+footer p {
+  position: absolute;
+  left: 32px;
+  top: 25px;
+  width: 330px;
+  height: 23px;
+  margin: 0;
 }
 
 .requirements {
   position: relative;
   width: 393px;
-  height: 2402px;
+  height: 2347px;
   overflow: hidden;
   padding: 0;
   background: #fff;
 }
 
-.requirements > h2 {
+.requirements__ribbon {
   position: absolute;
   left: 0;
-  top: 47px;
-  width: 393px;
+  top: 39px;
+  width: 363px;
+  height: 69px;
+}
+
+.requirements__ribbon-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 0 100px 100px 0;
+  background: linear-gradient(155.4053deg,#46b9bd 20.658%,#0099b4 79.342%);
+}
+
+.requirements__ribbon h2 {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  width: 80px;
+  height: 29px;
   margin: 0;
-  color: #004f5c;
-  font: 700 24px/normal 'Noto Serif JP',serif;
-  text-align: center;
+  color: #fff;
+  font: 900 20px/normal 'Noto Serif JP',serif;
+  text-align: left;
+  text-shadow: 0 0 4px rgba(0,0,0,.5);
 }
 
 .requirements-card {
   position: absolute;
   left: 16px;
-  top: 107px;
+  top: 138.0977px;
   width: 361px;
-  height: 2214px;
+  height: 2151.8052px;
   padding: 0;
   border: 0;
   border-radius: 20px;
@@ -154,9 +181,17 @@ footer {
   box-shadow: 0 0 2px rgba(0,0,0,.5);
 }
 
-.requirements-card > section {
+.requirements-card__content {
   position: absolute;
   left: 11px;
+  top: 50px;
+  width: 339px;
+  height: 1912px;
+}
+
+.requirements-card__content > section {
+  position: absolute;
+  left: 0;
   width: 339px;
   margin: 0;
   padding: 0 0 0 20px;
@@ -164,18 +199,31 @@ footer {
   font: 500 15px/normal 'Zen Kaku Gothic New',sans-serif;
 }
 
-.requirements-card > section:nth-of-type(1) { top: 50px; width: 170px; height: 64px; }
-.requirements-card > section:nth-of-type(2) { top: 139px; width: 130px; height: 64px; }
-.requirements-card > section:nth-of-type(3) { top: 228px; width: 319px; height: 278px; }
-.requirements-card > section:nth-of-type(4) { top: 556px; width: 339px; height: 108px; }
-.requirements-card > section:nth-of-type(5) { top: 689px; width: 280px; height: 152px; }
-.requirements-card > section:nth-of-type(6) { top: 891px; width: 319px; height: 86px; }
-.requirements-card > section:nth-of-type(7) { top: 1002px; width: 280px; height: 262px; }
-.requirements-card > section:nth-of-type(8) { top: 1289px; width: 280px; height: 108px; }
-.requirements-card > section:nth-of-type(9) { top: 1422px; width: 312px; height: 111px; }
-.requirements-card > section:nth-of-type(10) { top: 1558px; width: 312px; height: 65px; }
-.requirements-card > section:nth-of-type(11) { top: 1673px; width: 339px; height: 262px; }
-.requirements-card > section:nth-of-type(12) { top: 1960px; width: 339px; height: 64px; }
+.requirements-card__content > section:nth-of-type(1) { top: 0; width: 170px; height: 64px; }
+.requirements-card__content > section:nth-of-type(2) { top: 89px; width: 130px; height: 64px; }
+.requirements-card__content > section:nth-of-type(3) { top: 178px; width: 319px; height: 260px; }
+.requirements-card__content > section:nth-of-type(4) { top: 488px; width: 339px; height: 108px; }
+.requirements-card__content > section:nth-of-type(5) { top: 621px; width: 336px; height: 152px; }
+.requirements-card__content > section:nth-of-type(6) { top: 823px; width: 319px; height: 86px; }
+.requirements-card__content > section:nth-of-type(7) { top: 934px; width: 280px; height: 218px; }
+.requirements-card__content > section:nth-of-type(8) { top: 1177px; width: 280px; height: 108px; }
+.requirements-card__content > section:nth-of-type(9) { top: 1310px; width: 312px; height: 111px; }
+.requirements-card__content > section:nth-of-type(10) { top: 1446px; width: 312px; height: 65px; }
+.requirements-card__content > section:nth-of-type(11) { top: 1561px; width: 339px; height: 262px; }
+.requirements-card__content > section:nth-of-type(12) { top: 1848px; width: 339px; height: 64px; }
+
+.requirements-card__content > section:nth-of-type(1) p { width: 150px; }
+.requirements-card__content > section:nth-of-type(2) p { width: 110px; }
+.requirements-card__content > section:nth-of-type(3) p { width: 302px; }
+.requirements-card__content > section:nth-of-type(4) p { width: 319px; }
+.requirements-card__content > section:nth-of-type(5) p { width: 316px; }
+.requirements-card__content > section:nth-of-type(6) p { width: 299px; }
+.requirements-card__content > section:nth-of-type(7) p { width: 316px; }
+.requirements-card__content > section:nth-of-type(8) p { width: 260px; }
+.requirements-card__content > section:nth-of-type(9) p,
+.requirements-card__content > section:nth-of-type(10) p { width: 292px; }
+.requirements-card__content > section:nth-of-type(11) p,
+.requirements-card__content > section:nth-of-type(12) p { width: 319px; }
 
 .requirements-card h3 {
   display: inline-flex;
@@ -203,15 +251,13 @@ footer {
 .requirements-card ul { list-style: none; }
 .requirements-card li { margin: 0; padding: 0; }
 .requirements-card li::before { content: '・'; }
-.requirements-card > section:nth-of-type(3) p:last-child { font-size: 12px; }
-.requirements-card > section:nth-of-type(9) p,
-.requirements-card > section:nth-of-type(10) p { font-size: 16px; }
-.requirements-card > section:nth-of-type(9) p,
-.requirements-card > section:nth-of-type(10) p { line-height: 23px; }
+.requirements-card p small { font-size: 12px; }
+.requirements-card__content > section:nth-of-type(9) p,
+.requirements-card__content > section:nth-of-type(10) p { font-size: 16px; line-height: 23px; }
 
-.requirements-card hr {
+.requirements-card__content > hr {
   position: absolute;
-  left: 11px;
+  left: 0;
   width: 339px;
   height: 2px;
   margin: 0;
@@ -219,28 +265,37 @@ footer {
   background: linear-gradient(90deg,#46b9bd,#0099b4);
 }
 
-.requirements-card hr:nth-of-type(1) { top: 531px; }
-.requirements-card hr:nth-of-type(2) { top: 866px; }
-.requirements-card hr:nth-of-type(3) { top: 1648px; }
+.requirements-card__content > hr:nth-of-type(1) { top: 463px; }
+.requirements-card__content > hr:nth-of-type(2) { top: 798px; }
+.requirements-card__content > hr:nth-of-type(3) { top: 1536px; }
 
 .requirements .line-cta {
   position: absolute;
   left: 44px;
-  top: 2074px;
+  top: 2012px;
   width: 273px;
-  height: 70px;
+  height: 69.8051px;
   margin: 0;
   border-radius: 14px;
   background: linear-gradient(148.4deg,#46b9bd 20.658%,#0099b4 79.342%);
-  box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  box-shadow: 2px 2px 0 #004f5c;
   color: #fff;
   font: 900 22px/normal 'Noto Serif JP',serif;
   text-shadow: 0 0 4px rgba(0,0,0,.5);
   justify-content: flex-start;
-  padding-left: 24px;
+  padding: 0;
 }
 
-.requirements .line-cta span {
+.requirements .line-cta__label {
+  position: absolute;
+  left: 24px;
+  top: 18.9023px;
+  width: 190px;
+  height: 32px;
+  font-size: 22.116px;
+}
+
+.requirements .line-cta__arrow {
   position: absolute;
   left: 219px;
   right: auto;
