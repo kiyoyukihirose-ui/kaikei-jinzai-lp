@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700;900&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="figma-overrides.css?v=9">
+  <link rel="stylesheet" href="figma-overrides.css?v=10">
   <link rel="stylesheet" href="scroll-fix.css">
   <link rel="stylesheet" href="figma-sections.css">
   <link rel="stylesheet" href="figma-remaining.css?v=4">
@@ -28,11 +28,16 @@
       <feComposite in="title-white-100-c" in2="title-outer-blur" operator="in" result="title-shadow-c"/>
       <feFlood flood-color="#fff" flood-opacity="1" result="title-white-100-d"/>
       <feComposite in="title-white-100-d" in2="title-outer-blur" operator="in" result="title-shadow-d"/>
+      <!-- Figma: black drop shadow, .3/.3, blur 0, opacity 1. -->
+      <feOffset in="SourceAlpha" dx=".3" dy=".3" result="title-black-offset"/>
+      <feFlood flood-color="#000" flood-opacity="1" result="title-black-color"/>
+      <feComposite in="title-black-color" in2="title-black-offset" operator="in" result="title-black-shadow"/>
       <feMerge result="title-with-outer-shadow">
         <feMergeNode in="title-shadow-a"/>
         <feMergeNode in="title-shadow-b"/>
         <feMergeNode in="title-shadow-c"/>
         <feMergeNode in="title-shadow-d"/>
+        <feMergeNode in="title-black-shadow"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
 

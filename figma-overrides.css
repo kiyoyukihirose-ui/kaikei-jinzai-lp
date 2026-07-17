@@ -11,7 +11,7 @@
 .intro__flare-radius{position:absolute;left:65px;top:-11px;width:232px;height:163px;mix-blend-mode:overlay}
 .figma-filters{position:absolute;overflow:hidden;pointer-events:none}
 .intro__title{position:absolute;z-index:2;left:50%;top:70px;transform:translateX(-50%);width:max-content;margin:0;font-family:'Noto Serif JP',serif;font-size:20px;font-weight:900;line-height:normal;letter-spacing:0;color:#e6a600;text-align:center;-webkit-text-stroke:0;paint-order:normal;text-shadow:none}
-.intro__title span{display:block;background:linear-gradient(109.642deg,#ffd86d 10.747%,#ffbb00 23.202%,#dba100 48.49%,#ffbb00 72.269%,#ffd86d 88.498%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:url(#intro-title-figma-effects)}
+.intro__title span{display:block;background:linear-gradient(109.64187154226822deg,#dba100 10.747%,#ffd86d 21.692%,#ffbb00 36.035%,#dba100 48.113%,#dba100 48.49%,#dba100 48.868%,#ffbb00 65.097%,#ffd86d 78.307%,#dba100 89.253%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:url(#intro-title-figma-effects)}
 .intro p.intro__body{position:absolute;z-index:2;left:50%;top:179px;transform:translateX(-50%);width:313px;margin:0;font-family:'Zen Kaku Gothic New',sans-serif;font-size:16px;font-weight:500;line-height:normal;text-align:center;color:#fff;text-shadow:0 1px 2px rgba(0,68,78,.72)}
 .intro:before,.intro:after{content:"";position:absolute;z-index:3;left:0;width:393px;height:35px;pointer-events:none}
 .intro:before{top:-1px;background:linear-gradient(to bottom,#fff,rgba(255,255,255,0))}
