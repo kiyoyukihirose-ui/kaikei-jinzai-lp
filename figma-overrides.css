@@ -9,9 +9,9 @@
 .intro__flare-line{display:block;width:365px;height:36px;max-width:none}
 .intro__flare-light{position:absolute;left:78px;top:10px;width:206px;height:120px}
 .intro__flare-radius{position:absolute;left:65px;top:-11px;width:232px;height:163px;mix-blend-mode:overlay}
-.intro__title{position:absolute;z-index:2;left:50%;top:70px;transform:translateX(-50%);width:max-content;margin:0;font-family:'Noto Serif JP',serif;font-size:20px;font-weight:900;line-height:normal;letter-spacing:0;color:#e6a600;text-align:center;filter:none;text-shadow:-1px -1px 0 rgba(255,255,255,.95),1px -1px 0 rgba(255,255,255,.95),-1px 1px 0 rgba(255,255,255,.95),1px 1px 0 rgba(255,255,255,.95),0 2px 1px rgba(91,57,0,.72)}
-.intro__title span{display:block;background:none;-webkit-text-fill-color:currentColor;-webkit-text-stroke:0}
-.intro p.intro__body{position:absolute;z-index:2;left:50%;top:179px;transform:translateX(-50%);width:313px;margin:0;font-family:'Zen Kaku Gothic New',sans-serif;font-size:16px;font-weight:500;line-height:normal;text-align:center;color:#fff;text-shadow:0 0 4px rgba(0,0,0,.75)}
+.intro__title{position:absolute;z-index:2;left:50%;top:70px;transform:translateX(-50%);width:max-content;margin:0;font-family:'Noto Serif JP',serif;font-size:20px;font-weight:900;line-height:normal;letter-spacing:0;color:#e6a600;text-align:center;filter:none;-webkit-text-stroke:.65px rgba(255,255,255,.98);paint-order:stroke fill;text-shadow:0 1.5px 1px rgba(91,57,0,.72)}
+.intro__title span{display:block;background:none;-webkit-text-fill-color:currentColor}
+.intro p.intro__body{position:absolute;z-index:2;left:50%;top:179px;transform:translateX(-50%);width:313px;margin:0;font-family:'Zen Kaku Gothic New',sans-serif;font-size:16px;font-weight:500;line-height:normal;text-align:center;color:#fff;text-shadow:0 1px 2px rgba(0,68,78,.72)}
 .intro:before,.intro:after{content:"";position:absolute;z-index:3;left:0;width:393px;height:35px;pointer-events:none}
 .intro:before{top:-1px;background:linear-gradient(to bottom,#fff,rgba(255,255,255,0))}
 .intro:after{bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff)}
