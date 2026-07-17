@@ -1,0 +1,13 @@
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: auto;
+  touch-action: pan-y;
+}
+
+.page {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
