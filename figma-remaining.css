@@ -236,16 +236,21 @@ footer {
   color: #fff;
   font: 900 22px/normal 'Noto Serif JP',serif;
   text-shadow: 0 0 4px rgba(0,0,0,.5);
+  justify-content: flex-start;
+  padding-left: 24px;
 }
 
 .requirements .line-cta span {
   position: absolute;
-  right: 28px;
-  top: 23px;
+  left: 219px;
+  right: auto;
+  top: 22.9px;
   width: 26px;
   height: 26px;
-  overflow: hidden;
-  background: url('assets/line-arrow.svg') center/contain no-repeat;
+  overflow: visible;
+  background: url('assets/line-arrow.svg') center/30.5167px 27.5px no-repeat;
   color: transparent;
   font-size: 0;
+  transform: rotate(90deg);
+  transform-origin: center;
 }
