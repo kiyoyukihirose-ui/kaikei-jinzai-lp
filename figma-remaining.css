@@ -42,7 +42,7 @@
 .recommend-list article:nth-child(3) { top: 861px; }
 .recommend-list article:nth-child(4) { top: 1203px; }
 
-.recommend-list article img { position: absolute; object-fit: contain; }
+.recommend-list article img { position: absolute; object-fit: contain; mix-blend-mode: multiply; }
 .recommend-list article:nth-child(1) img { left: 73px; top: 46px; width: 187px; height: 178px; }
 .recommend-list article:nth-child(2) img { left: 80px; top: 60px; width: 174px; height: 165px; }
 .recommend-list article:nth-child(3) img { left: 82px; top: 57px; width: 174px; height: 167px; }
