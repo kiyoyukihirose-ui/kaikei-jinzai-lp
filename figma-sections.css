@@ -151,24 +151,48 @@
 .target__glow {
   position: absolute;
   z-index: 0;
-  left: 20px;
+  left: -67px;
   top: 87px;
-  width: 354px;
+  width: 528px;
   height: 507px;
   max-width: none;
 }
 
-.target .ribbon {
+.target__ribbon-bg {
+  position: absolute;
+  z-index: 2;
+  left: 0;
   top: 61px;
-  padding-top: 20px;
+  width: 363px;
+  height: 69px;
+  border-radius: 0 100px 100px 0;
+  background: linear-gradient(155.4053deg, #46b9bd 20.658%, #0099b4 79.342%);
+}
+
+.target__heading {
+  position: absolute;
+  z-index: 3;
+  left: 30px;
+  top: 81px;
+  width: 160px;
+  height: 29px;
+  margin: 0;
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: normal;
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(0,0,0,.5);
 }
 
 .target__intro {
   position: absolute;
   z-index: 2;
-  left: 31px;
+  left: 30px;
   top: 165px;
   width: 330px;
+  height: 69px;
   margin: 0;
   color: #3f3f3f;
   font: 500 16px/normal 'Zen Kaku Gothic New', sans-serif;
@@ -197,32 +221,38 @@
 .target .checklist {
   top: 260px;
   height: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 28px;
+  overflow: hidden;
+  padding: 0;
   list-style: none;
   color: #004f5c;
 }
 
 .target .checklist li {
-  position: relative;
-  width: 100%;
-  min-height: 35px;
-  margin: 0 0 1px;
-  padding-left: 29px;
+  position: absolute;
+  left: 32.0228px;
+  width: 280.9772px;
+  margin: 0;
+  padding: 0 0 0 25.6601px;
   font: 500 15px/normal 'Zen Kaku Gothic New', sans-serif;
 }
 
+.target .checklist li:nth-child(1) { top: 23px; height: 44px; }
+.target .checklist li:nth-child(2) { top: 74px; height: 28px; line-height: 28px; }
+.target .checklist li:nth-child(3) { top: 109px; height: 28px; line-height: 28px; }
 .target .checklist li::before { content: none; }
-.target .checklist img { position: absolute; left: 2px; top: 2px; width: 21px; height: 19px; }
+.target .checklist img { position: absolute; left: 0; width: 20.7212px; height: 18.5953px; }
+.target .checklist li:nth-child(1) img { top: 2.2473px; }
+.target .checklist li:nth-child(2) img { top: 5.2473px; }
+.target .checklist li:nth-child(3) img { top: 6.2473px; }
+.target .checklist span { display: block; width: 255.317px; }
 
-.target .note {
+.target__note {
   position: absolute;
   z-index: 2;
-  left: 31px;
+  left: 30px;
   top: 446px;
   width: 330px;
+  height: 69px;
   margin: 0;
   color: #3f3f3f;
   font: 500 16px/normal 'Zen Kaku Gothic New', sans-serif;
