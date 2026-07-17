@@ -1,0 +1,17 @@
+/* Figma 63:371 — accounting staff introduction */
+.intro{position:relative;width:393px;height:320px;overflow:hidden;background:#fff;color:#fff;text-align:center;padding:0}
+.intro__photo{position:absolute;left:-45px;top:-2px;width:484px;height:322px;object-fit:cover;opacity:.4}
+.intro__tint{position:absolute;left:-54px;top:-2px;width:502px;height:322px;background:rgba(29,206,206,.1)}
+.intro__flare{position:absolute;left:14px;top:45px;width:365px;height:131px;pointer-events:none}
+.intro__flare-glow-wrap{position:absolute;left:-25px;top:-30px;width:421px;height:198px}
+.intro__flare-glow{position:absolute;left:-200px;top:-200px;width:821px;height:598px;max-width:none}
+.intro__flare-line-wrap{position:absolute;left:0;top:54px;width:365px;height:36px;overflow:hidden;opacity:.8}
+.intro__flare-line{display:block;width:365px;height:36px;max-width:none}
+.intro__flare-light{position:absolute;left:78px;top:10px;width:206px;height:120px}
+.intro__flare-radius{position:absolute;left:65px;top:-11px;width:232px;height:163px;mix-blend-mode:overlay}
+.intro__title{position:absolute;z-index:2;left:50%;top:70px;transform:translateX(-50%);width:max-content;margin:0;font-family:'Noto Serif JP',serif;font-size:20px;font-weight:900;line-height:normal;letter-spacing:0;color:#dba100;text-align:center;filter:drop-shadow(0 0 1px #fff) drop-shadow(0 0 2px rgba(255,255,255,.95)) drop-shadow(0 1px 0 rgba(70,47,0,.8))}
+.intro__title span{display:block;background:linear-gradient(109.642deg,#ffd86d 10.747%,#ffbb00 23.202%,#dba100 48.49%,#ffbb00 72.269%,#ffd86d 88.498%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-text-stroke:.35px rgba(125,83,0,.78)}
+.intro p.intro__body{position:absolute;z-index:2;left:50%;top:179px;transform:translateX(-50%);width:313px;margin:0;font-family:'Zen Kaku Gothic New',sans-serif;font-size:16px;font-weight:500;line-height:normal;text-align:center;color:#fff;text-shadow:0 0 4px rgba(0,0,0,.75)}
+.intro:before,.intro:after{content:"";position:absolute;z-index:3;left:0;width:393px;height:35px;pointer-events:none}
+.intro:before{top:-1px;background:linear-gradient(to bottom,#fff,rgba(255,255,255,0))}
+.intro:after{bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff)}
