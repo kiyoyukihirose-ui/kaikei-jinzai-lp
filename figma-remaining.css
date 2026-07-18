@@ -48,11 +48,7 @@
 .recommend-list article:nth-child(3) .recommend__main { left: 82px; top: 57px; width: 174px; height: 167px; }
 
 .recommend-skill { position: absolute; left: 94px; top: 57px; width: 146px; height: 167px; }
-.recommend-skill img { position: absolute; display: block; }
-.recommend-skill__person { left: 15.96px; top: 0; width: 105.51px; height: 155.95px; }
-.recommend-skill__case { left: 0; top: 138.4px; width: 51.81px; height: 25.56px; }
-.recommend-skill__case-detail { left: 0; top: 112.26px; width: 51.81px; height: 29.54px; }
-.recommend-skill__badge { left: 102.13px; top: 104.46px; width: 43.87px; height: 43.24px; }
+.recommend-skill__exact { position: absolute; inset: 0; display: block; width: 146px; height: 167px; }
 
 .recommend-list h3 {
   position: absolute;
