@@ -127,6 +127,14 @@
 
 .intro__title,
 .thanks__title {
+  color: #dba100;
+  filter: none;
+  text-shadow: none;
+}
+
+.intro__title span,
+.thanks__title span {
+  display: block;
   background: linear-gradient(109.5903245deg,#dba100 10.747%,#ffd86d 21.692%,#ffbb00 36.035%,#fdc220 48.868%,#ffbb00 65.097%,#ffd86d 78.307%,#dba100 89.253%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -135,9 +143,6 @@
   filter: none;
   text-shadow: 0 0 6px #fff,0 0 6px rgba(255,255,255,.25),0 0 6px #fff,0 0 6px #fff,.3px .3px 0 #000;
 }
-
-.intro__title span,
-.thanks__title span { background: none; filter: none; }
 
 .thanks__fade { position: absolute; z-index: 3; left: 0; width: 393px; height: 35px; pointer-events: none; }
 .thanks__fade--top { top: 0; background: linear-gradient(to bottom,#d9ffff,rgba(217,255,255,0)); }
