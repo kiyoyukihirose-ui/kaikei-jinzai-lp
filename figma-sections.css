@@ -272,6 +272,19 @@
   background: #d9ffff;
 }
 
+.target__top-fade {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 393px;
+  height: 35px;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#fff 100%);
+  transform: rotate(180deg);
+  transform-origin: center;
+  pointer-events: none;
+}
+
 .target__glow {
   position: absolute;
   z-index: 0;
