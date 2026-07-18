@@ -228,6 +228,9 @@
 .example__operator { position: absolute; top: 80px; width: 14px; height: 24px; color: #004f5c; font: 700 20px/normal Inter,sans-serif; }
 .example__operator--1 { left: 146px; }
 .example__operator--2 { left: 224px; }
+.example__formula-row { position: absolute; left: 22px; top: 77px; width: 290px; height: 29px; display: flex; align-items: flex-start; gap: 6px; white-space: nowrap; }
+.example__formula-row .example__gold { position: static; flex: 0 0 auto; width: auto; height: 29px; }
+.example__formula-row .example__operator { position: static; flex: 0 0 auto; width: auto; height: 24px; margin-top: 3px; }
 .example__equal,.example__suffix { position: absolute; top: 120px; height: 23px; color: #004f5c; font: 700 16px/normal 'Zen Kaku Gothic New',sans-serif; white-space: nowrap; }
 .example__equal { left: 56px; width: 32px; }
 .example__suffix { left: 172px; width: 112px; }
