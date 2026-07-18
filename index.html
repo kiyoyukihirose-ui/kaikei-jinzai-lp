@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="figma-overrides.css?v=14">
   <link rel="stylesheet" href="scroll-fix.css">
   <link rel="stylesheet" href="figma-sections.css?v=6">
-  <link rel="stylesheet" href="figma-remaining.css?v=19">
+  <link rel="stylesheet" href="figma-remaining.css?v=20">
 </head>
 <body>
 <svg class="figma-filters" aria-hidden="true" width="0" height="0" focusable="false">
@@ -52,6 +52,19 @@
       <feMerge>
         <feMergeNode in="title-with-outer-shadow"/>
         <feMergeNode in="title-inner-shadow"/>
+      </feMerge>
+    </filter>
+    <filter id="title-inner-shadow-figma" x="-10%" y="-20%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feComponentTransfer in="SourceAlpha" result="title-inner-only-alpha-inverse">
+        <feFuncA type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+      <feGaussianBlur in="title-inner-only-alpha-inverse" stdDeviation=".6" result="title-inner-only-blur"/>
+      <feComposite in="title-inner-only-blur" in2="SourceAlpha" operator="in" result="title-inner-only-mask"/>
+      <feFlood flood-color="#000" flood-opacity=".5" result="title-inner-only-color"/>
+      <feComposite in="title-inner-only-color" in2="title-inner-only-mask" operator="in" result="title-inner-only-shadow"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="title-inner-only-shadow"/>
       </feMerge>
     </filter>
   </defs>

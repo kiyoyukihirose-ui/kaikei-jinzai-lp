@@ -156,6 +156,7 @@
   color: transparent;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
+  filter: url(#title-inner-shadow-figma);
 }
 
 .intro__title span:nth-child(1)::after,
