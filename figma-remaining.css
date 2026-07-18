@@ -139,7 +139,7 @@
   color: transparent;
   -webkit-text-fill-color: transparent;
   filter: none;
-  text-shadow: 0 0 6px #fff,0 0 6px rgba(255,255,255,.25),0 0 6px #fff,0 0 6px #fff,.3px .3px 0 #000;
+  text-shadow: .3px .3px 0 #000,0 0 6px #fff,0 0 6px rgba(255,255,255,.25),0 0 6px #fff,0 0 6px #fff;
 }
 
 .intro__title span::after,
