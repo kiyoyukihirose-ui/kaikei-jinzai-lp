@@ -13,8 +13,6 @@
 .hero__copy-small,.hero__copy-large{position:absolute;display:block;overflow:visible;margin:0}
 .hero__copy-small{left:76.4301px;top:267px;width:263px;height:47px}
 .hero__copy-large{left:76.4301px;top:296.903225px;width:258px;height:73px}
-.hero__copy-exact{position:absolute;left:68.678px;top:267px;width:271.344px;height:103px;max-width:none}
-.hero__copy-semantic{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .hero__ribbon-visual{position:absolute;left:30px;top:377px;width:334px;height:69px}
 .hero__ribbon-base{position:absolute;left:-2px;top:-2px;width:338px;height:73px;max-width:none}
 .hero__ribbon-glow{position:absolute;left:2px;top:-33px;width:330px;height:137px;max-width:none}
