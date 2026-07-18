@@ -215,7 +215,8 @@
   font-weight: 700;
   line-height: normal;
   white-space: nowrap;
-  text-shadow: .5px .5px 0 #634500;
+  text-shadow: none;
+  filter: drop-shadow(.5px .5px 0 #634500);
 }
 
 .income .example__gold small { position: static; display: inline; width: auto; height: auto; border-radius: 0; background: none; box-shadow: none; color: inherit; font: inherit; font-size: 18px; line-height: normal; }
