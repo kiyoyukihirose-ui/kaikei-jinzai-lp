@@ -234,6 +234,8 @@
 .example__equal,.example__suffix { position: absolute; top: 120px; height: 23px; color: #004f5c; font: 700 16px/normal 'Zen Kaku Gothic New',sans-serif; white-space: nowrap; }
 .example__equal { left: 56px; width: 32px; }
 .example__suffix { left: 172px; width: 112px; }
+.example__total-row { position: absolute; left: 56px; top: 115px; width: 228px; height: 29px; display: flex; align-items: baseline; gap: 4px; white-space: nowrap; }
+.example__total-row .example__equal,.example__total-row .example__gold--total,.example__total-row .example__suffix { position: static; flex: 0 0 auto; width: auto; height: auto; }
 
 .income__card-label {
   position: absolute;
