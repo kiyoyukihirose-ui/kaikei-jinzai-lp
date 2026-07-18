@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="figma-overrides.css?v=14">
   <link rel="stylesheet" href="scroll-fix.css">
   <link rel="stylesheet" href="figma-sections.css?v=6">
-  <link rel="stylesheet" href="figma-remaining.css?v=20">
+  <link rel="stylesheet" href="figma-remaining.css?v=21">
 </head>
 <body>
 <svg class="figma-filters" aria-hidden="true" width="0" height="0" focusable="false">
@@ -58,7 +58,7 @@
       <feComponentTransfer in="SourceAlpha" result="title-inner-only-alpha-inverse">
         <feFuncA type="table" tableValues="1 0"/>
       </feComponentTransfer>
-      <feGaussianBlur in="title-inner-only-alpha-inverse" stdDeviation=".6" result="title-inner-only-blur"/>
+      <feGaussianBlur in="title-inner-only-alpha-inverse" stdDeviation=".3" result="title-inner-only-blur"/>
       <feComposite in="title-inner-only-blur" in2="SourceAlpha" operator="in" result="title-inner-only-mask"/>
       <feFlood flood-color="#000" flood-opacity=".5" result="title-inner-only-color"/>
       <feComposite in="title-inner-only-color" in2="title-inner-only-mask" operator="in" result="title-inner-only-shadow"/>
