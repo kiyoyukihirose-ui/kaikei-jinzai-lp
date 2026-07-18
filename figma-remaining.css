@@ -7,6 +7,17 @@
   background: #d9ffff;
 }
 
+.recommend__background { position: absolute; z-index: 0; inset: 0; overflow: hidden; pointer-events: none; }
+.recommend__beam { position: absolute; display: block; transform: rotate(-30deg); background: linear-gradient(-90deg,rgba(29,206,206,.2) 0%,rgba(29,206,206,0) 100%); }
+.recommend__beam--1 { left: -148.77px; top: 146.37px; width: 480.02px; height: 102.79px; }
+.recommend__beam--2 { left: -32.74px; top: 285.47px; width: 619.09px; height: 186.07px; }
+.recommend__beam--3 { left: -188.77px; top: 534.89px; width: 619.09px; height: 102.79px; }
+.recommend__beam--4 { left: 253.48px; top: 586.08px; width: 282.49px; height: 97.60px; }
+.recommend__beam--5 { left: -166.80px; top: 826.83px; width: 480.02px; height: 174.90px; }
+.recommend__beam--6 { left: -32.74px; top: 1033.22px; width: 619.09px; height: 186.07px; }
+.recommend__beam--7 { left: -188.77px; top: 1282.64px; width: 619.09px; height: 102.79px; }
+.recommend__beam--8 { left: 253.48px; top: 1333.83px; width: 282.49px; height: 97.60px; }
+
 .recommend .ribbon {
   position: absolute;
   z-index: 2;
@@ -33,7 +44,8 @@
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: #fff url('assets/recommend-circle.svg') center/341px 341px no-repeat;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
   text-align: center;
 }
 
