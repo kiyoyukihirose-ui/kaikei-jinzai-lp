@@ -10,9 +10,9 @@
 .hero__underline{position:absolute;left:72px;top:351.172px;width:262.484px;height:12.183px;overflow:hidden;background:linear-gradient(173.62deg,#dba100 0%,#f5ca53 50.9615%,#dba100 100%);box-shadow:1.10753px 1.10753px 4.4301px rgba(0,0,0,.25),inset 0 0 27.6882px rgba(255,166,0,.75)}
 .hero__underline:after{content:"";position:absolute;left:15.505px;top:0;width:232.58px;height:12.183px;border-radius:50%;background:rgba(255,255,255,.75);filter:blur(13.8441px)}
 .hero__underline img{display:none}
-.hero__copy-small,.hero__copy-large{position:absolute;margin:0;white-space:nowrap;font-family:'Noto Serif JP',serif;font-weight:900;line-height:normal;color:#1dcece}
-.hero__copy-small{left:76.4301px;top:267px;font-size:32.85033px;text-shadow:1.06717px 1.06717px 0 #004f5c;filter:none}
-.hero__copy-large{left:76.4301px;top:296.903225px;font-size:50.70258px;text-shadow:1.10753px 1.10753px 0 #004f5c;filter:none}
+.hero__copy-small,.hero__copy-large{position:absolute;display:block;overflow:visible;margin:0}
+.hero__copy-small{left:76.4301px;top:267px;width:263px;height:47px}
+.hero__copy-large{left:76.4301px;top:296.903225px;width:258px;height:73px}
 .hero__ribbon-visual{position:absolute;left:30px;top:377px;width:334px;height:69px}
 .hero__ribbon-base{position:absolute;left:-2px;top:-2px;width:338px;height:73px;max-width:none}
 .hero__ribbon-glow{position:absolute;left:2px;top:-33px;width:330px;height:137px;max-width:none}
