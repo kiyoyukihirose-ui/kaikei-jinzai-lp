@@ -48,7 +48,22 @@
 .recommend-list article:nth-child(3) .recommend__main { left: 82px; top: 57px; width: 174px; height: 167px; }
 
 .recommend-skill { position: absolute; left: 94px; top: 57px; width: 146px; height: 167px; }
-.recommend-skill__exact { position: absolute; inset: 0; display: block; width: 146px; height: 167px; }
+.recommend-skill__part { position: absolute; display: block; width: auto; height: auto; max-width: none; }
+.recommend-skill__part--222 { inset: 0 16.8% 6.62% 10.93%; }
+.recommend-skill__part--223 { inset: 82.86% 64.51% 1.83% 0; }
+.recommend-skill__part--224 { inset: 67.22% 64.51% 15.09% 0; }
+.recommend-skill__part--225 { inset: 62.55% 0 11.56% 69.95%; }
+.recommend-skill__part--226 { inset: 86.57% 15.52% 0 70.36%; }
+.recommend-skill__part--227 { inset: 86.53% .36% .01% 85.5%; }
+.recommend-skill__part--228 { inset: 29.81% .43% 53.59% 82.22%; }
+.recommend-skill__part--229 { inset: 83.3% 79.39% 12.13% 14.92%; }
+.recommend-skill__part--230 { inset: 29.46% 56.16% 65.47% 39.23%; }
+.recommend-skill__part--231 { inset: 29.43% 38.65% 65.53% 56.76%; }
+.recommend-skill__part--232 { inset: 41.8% 45.52% 55.33% 45.71%; }
+.recommend-skill__part--233 { inset: 24.55% 36.23% 72.95% 55.62%; }
+.recommend-skill__part--234 { inset: 25.16% 55.06% 72.39% 36.97%; }
+.recommend-skill__part--235 { inset: 36.57% 48.96% 60.63% 48.34%; }
+.recommend-skill__part--236 { inset: 69.22% 7.88% 18.78% 77.82%; }
 
 .recommend-list h3 {
   position: absolute;
