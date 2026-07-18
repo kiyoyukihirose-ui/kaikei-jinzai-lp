@@ -7,11 +7,12 @@
 .hero__white-base{position:absolute;left:0;top:358px;width:393px;height:217px;background:#fff}
 .hero__title-shadow{position:absolute;left:-29px;top:221px;width:451px;height:200px;max-width:none}
 .hero__copy-group{display:contents}
-.hero__underline{position:absolute;left:72px;top:351.172px;width:262.484px;height:12.183px}
-.hero__underline img{position:absolute;left:-1.27%;top:-27.27%;width:103.38%;height:172.72%;max-width:none}
+.hero__underline{position:absolute;left:72px;top:351.172px;width:262.484px;height:12.183px;overflow:hidden;background:linear-gradient(173.62deg,#dba100 0%,#f5ca53 50.9615%,#dba100 100%);box-shadow:1.10753px 1.10753px 4.4301px rgba(0,0,0,.25),inset 0 0 27.6882px rgba(255,166,0,.75)}
+.hero__underline:after{content:"";position:absolute;left:15.505px;top:0;width:232.58px;height:12.183px;border-radius:50%;background:rgba(255,255,255,.75);filter:blur(13.8441px)}
+.hero__underline img{display:none}
 .hero__copy-small,.hero__copy-large{position:absolute;margin:0;white-space:nowrap;font-family:'Noto Serif JP',serif;font-weight:900;line-height:normal;color:#1dcece}
-.hero__copy-small{left:76.4301px;top:267px;font-size:32.85033px;text-shadow:none;filter:url(#hero-copy-small-effects)}
-.hero__copy-large{left:76.4301px;top:296.903225px;font-size:50.70258px;text-shadow:none;filter:url(#hero-copy-large-effects)}
+.hero__copy-small{left:76.4301px;top:267px;font-size:32.85033px;text-shadow:1.06717px 1.06717px 0 #004f5c;filter:none}
+.hero__copy-large{left:76.4301px;top:296.903225px;font-size:50.70258px;text-shadow:1.10753px 1.10753px 0 #004f5c;filter:none}
 .hero__ribbon-visual{position:absolute;left:30px;top:377px;width:334px;height:69px}
 .hero__ribbon-base{position:absolute;left:-2px;top:-2px;width:338px;height:73px;max-width:none}
 .hero__ribbon-glow{position:absolute;left:2px;top:-33px;width:330px;height:137px;max-width:none}
@@ -23,7 +24,7 @@
 .hero-badge:nth-child(1){left:38.181824px}
 .hero-badge:nth-child(2){left:147px}
 .hero-badge:nth-child(3){left:255.818176px}
-.hero-badge img{position:absolute;inset:0;width:99px;height:99px;max-width:none}
+.hero-badge img{position:absolute;inset:0;width:99px;height:99px;max-width:none;border-radius:50%;box-shadow:.883929px .883929px 0 #004f5c}
 .hero-badge p{position:absolute;top:24.545454px;height:50px;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-size:17.678572px;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 3.535714px rgba(0,0,0,.5)}
 .hero-badge:nth-child(1) p{left:22.909086px;width:54px}
 .hero-badge:nth-child(2) p{left:9.818182px;width:79px}
