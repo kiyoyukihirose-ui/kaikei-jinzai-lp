@@ -134,14 +134,26 @@
 
 .intro__title span,
 .thanks__title span {
+  position: relative;
   display: block;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: none;
+  text-shadow: 0 0 6px #fff,0 0 6px rgba(255,255,255,.25),0 0 6px #fff,0 0 6px #fff,.3px .3px 0 #000;
+}
+
+.intro__title span::after,
+.thanks__title span::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   background: linear-gradient(109.5903245deg,#dba100 10.747%,#ffd86d 21.692%,#ffbb00 36.035%,#fdc220 48.868%,#ffbb00 65.097%,#ffd86d 78.307%,#dba100 89.253%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  filter: none;
-  text-shadow: 0 0 6px #fff,0 0 6px rgba(255,255,255,.25),0 0 6px #fff,0 0 6px #fff,.3px .3px 0 #000;
+  text-shadow: none;
 }
 
 .thanks__fade { position: absolute; z-index: 3; left: 0; width: 393px; height: 35px; pointer-events: none; }
