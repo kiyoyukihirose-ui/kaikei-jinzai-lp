@@ -10,18 +10,24 @@
 .hero__underline{position:absolute;left:72px;top:351.172px;width:262.484px;height:12.183px}
 .hero__underline img{position:absolute;left:-1.27%;top:-27.27%;width:103.38%;height:172.72%;max-width:none}
 .hero__copy-small,.hero__copy-large{position:absolute;margin:0;white-space:nowrap;font-family:'Noto Serif JP',serif;font-weight:900;line-height:normal;color:#1dcece}
-.hero__copy-small{left:76.43px;top:267px;font-size:32.85px;text-shadow:1.067px 1.067px 0 #004f5c}
-.hero__copy-large{left:76.43px;top:296.903px;font-size:50.703px;text-shadow:1.108px 1.108px 0 #004f5c}
+.hero__copy-small{left:76.4301px;top:267px;font-size:32.85033px;text-shadow:none;filter:url(#hero-copy-small-effects)}
+.hero__copy-large{left:76.4301px;top:296.903225px;font-size:50.70258px;text-shadow:none;filter:url(#hero-copy-large-effects)}
 .hero__ribbon-visual{position:absolute;left:30px;top:377px;width:334px;height:69px}
 .hero__ribbon-base{position:absolute;left:-2px;top:-2px;width:338px;height:73px;max-width:none}
 .hero__ribbon-glow{position:absolute;left:2px;top:-33px;width:330px;height:137px;max-width:none}
 .hero__ribbon-title,.hero__ribbon-subtitle{position:absolute;left:50%;transform:translateX(-50%);width:max-content;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 4px rgba(0,0,0,.75)}
 .hero__ribbon-title{top:382px;font-size:26.38px}
 .hero__ribbon-subtitle{top:413px;font-size:18px}
-.badges{position:absolute;z-index:2;left:38.182px;top:454px;bottom:auto;display:flex;gap:9.818px}
-.hero-badge{position:relative;width:99px;height:99px}
+.badges{position:absolute;z-index:2;inset:0;display:block}
+.hero-badge{position:absolute;top:454px;width:99px;height:99px}
+.hero-badge:nth-child(1){left:38.181824px}
+.hero-badge:nth-child(2){left:147px}
+.hero-badge:nth-child(3){left:255.818176px}
 .hero-badge img{position:absolute;inset:0;width:99px;height:99px;max-width:none}
-.hero-badge p{position:absolute;left:50%;top:24.545px;transform:translateX(-50%);width:max-content;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-size:17.679px;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 3.536px rgba(0,0,0,.5)}
+.hero-badge p{position:absolute;top:24.545454px;height:50px;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-size:17.678572px;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 3.535714px rgba(0,0,0,.5)}
+.hero-badge:nth-child(1) p{left:22.909086px;width:54px}
+.hero-badge:nth-child(2) p{left:9.818182px;width:79px}
+.hero-badge:nth-child(3) p{left:12.272733px;width:75px}
 
 /* Figma 63:371 — accounting staff introduction */
 .intro{position:relative;width:393px;height:320px;overflow:hidden;background:#fff;color:#fff;text-align:center;padding:0}
