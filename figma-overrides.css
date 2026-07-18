@@ -55,7 +55,7 @@
 .header .logo{position:absolute;left:20px;top:11px;width:224px;height:48px;max-width:none;object-fit:cover;box-shadow:none;filter:drop-shadow(0 0 4px rgba(0,0,0,.75))}
 .header .phone{position:absolute;left:255px;top:11px;width:124px;height:48px;padding:0;display:block;overflow:hidden;border:0;border-radius:12px;background:#fff;box-shadow:1px 2px 0 #004f5c,0 0 4px rgba(0,0,0,.5);color:#004f5c;text-decoration:none;font-family:'Noto Serif JP',serif;font-weight:700;line-height:normal;text-shadow:0 0 1px rgba(0,0,0,.25)}
 .phone__icon{position:absolute;left:7px;top:12px;width:23px;height:22.983356px}
-.phone__icon img{position:absolute;left:-3px;top:-3px;width:29px;height:28.983356px;max-width:none}
+.phone__icon svg{position:absolute;left:-3px;top:-3px;width:29px;height:28.983356px;overflow:visible;fill:currentColor}
 .phone__prefix,.phone__main{position:absolute;left:32px;display:block;margin:0;white-space:nowrap}
 .phone__prefix{top:6px;font-size:12px}
 .phone__main{top:19px;font-size:14px}
