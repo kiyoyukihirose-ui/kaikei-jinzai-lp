@@ -52,7 +52,7 @@
 .intro:after{bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff)}
 /* Figma 1:5 — exact mobile header */
 .header{position:relative;z-index:20;width:393px;height:70px;padding:0;display:block;background:linear-gradient(156.7849935379deg,#46b9bd 20.658%,#0099b4 79.342%);filter:drop-shadow(0 2px 2.5px rgba(0,0,0,.25))}
-.header .logo{position:absolute;left:20px;top:11px;width:224px;height:48px;max-width:none;object-fit:cover;filter:drop-shadow(0 0 4px rgba(0,0,0,.75))}
+.header .logo{position:absolute;left:20px;top:11px;width:224px;height:48px;max-width:none;object-fit:cover;box-shadow:0 0 4px rgba(0,0,0,.75)}
 .header .phone{position:absolute;left:255px;top:11px;width:124px;height:48px;padding:0;display:block;overflow:hidden;border:0;border-radius:12px;background:#fff;box-shadow:1px 2px 0 #004f5c,0 0 4px rgba(0,0,0,.5);color:#004f5c;text-decoration:none;font-family:'Noto Serif JP',serif;font-weight:700;line-height:normal;text-shadow:0 0 1px rgba(0,0,0,.25)}
 .phone__icon{position:absolute;left:7px;top:12px;width:23px;height:22.983356px}
 .phone__icon img{position:absolute;left:-3px;top:-3px;width:29px;height:28.983356px;max-width:none}
