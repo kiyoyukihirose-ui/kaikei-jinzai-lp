@@ -29,7 +29,7 @@
 .hero-badge:after{content:"";position:absolute;z-index:1;inset:0;border-radius:50%;box-shadow:inset 0 0 5px #209296;pointer-events:none}
 .hero-badge p{position:absolute;z-index:2;top:24.545454px;height:50px;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-size:17.678572px;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 3.535714px rgba(0,0,0,.5)}
 .hero-badge:nth-child(1) p{left:22.909086px;width:54px}
-.hero-badge:nth-child(2) p{left:9.818182px;width:79px}
+.hero-badge:nth-child(2) p{left:9.818182px;top:22.545454px;width:79px}
 .hero-badge:nth-child(3) p{left:12.272733px;width:75px}
 
 /* Figma 63:371 — accounting staff introduction */
