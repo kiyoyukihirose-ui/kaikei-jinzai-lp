@@ -217,6 +217,11 @@ footer p {
 .requirements-card__content > section:nth-of-type(3) p { width: 302px; }
 .requirements-card__content > section:nth-of-type(4) p { width: 319px; }
 .requirements-card__content > section:nth-of-type(5) p { width: 316px; }
+.requirements-card__content > section:nth-of-type(5) .requirements-bullet {
+  display: block;
+  padding-left: 1em;
+  text-indent: -1em;
+}
 .requirements-card__content > section:nth-of-type(6) p { width: 299px; }
 .requirements-card__content > section:nth-of-type(7) p { width: 316px; }
 .requirements-card__content > section:nth-of-type(8) p { width: 260px; }
