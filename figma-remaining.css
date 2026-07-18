@@ -141,6 +141,7 @@
 
 .thanks__fade { position: absolute; z-index: 3; left: 0; width: 393px; height: 35px; pointer-events: none; }
 .thanks__fade--top { top: 0; background: linear-gradient(to bottom,#d9ffff,rgba(217,255,255,0)); }
+.thanks__fade--bottom { top: 218px; background: linear-gradient(to bottom,rgba(255,255,255,0),#fff); }
 
 footer {
   position: relative;
