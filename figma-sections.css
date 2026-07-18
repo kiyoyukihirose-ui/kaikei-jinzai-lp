@@ -199,7 +199,7 @@
   text-shadow: 0 0 4px rgba(0,0,0,.5);
 }
 
-.income .example { top: 178px; height: 184px; padding: 0; overflow: hidden; text-align: left; }
+.income .example { top: 150px; height: 184px; padding: 0; overflow: hidden; text-align: left; white-space: nowrap; }
 .income .example p { width: auto; }
 .example__lead { left: 58px; top: 40px; width: 210px !important; height: 23px; font: 500 16px/normal 'Zen Kaku Gothic New',sans-serif; color: #004f5c; white-space: nowrap; }
 
@@ -215,8 +215,8 @@
   font-weight: 700;
   line-height: normal;
   white-space: nowrap;
-  text-shadow: none;
-  filter: drop-shadow(.5px .5px 0 #634500);
+  text-shadow: .5px .5px 0 #634500;
+  filter: none;
 }
 
 .income .example__gold small { position: static; display: inline; width: auto; height: auto; border-radius: 0; background: none; box-shadow: none; color: inherit; font: inherit; font-size: 18px; line-height: normal; }
@@ -236,7 +236,7 @@
   position: absolute;
   z-index: 3;
   left: 141px;
-  top: 165px;
+  top: 137px;
   width: 111px;
   height: 26px;
   overflow: hidden;
@@ -247,7 +247,7 @@
   font: 700 16px/normal 'Zen Kaku Gothic New',sans-serif;
   text-align: center;
 }
-.income__card-label span { position: absolute; left: 32px; top: 2px; width: 47px; height: 23px; white-space: nowrap; }
+.income__card-label span { position: absolute; left: 32px; top: 2px; width: 48px; height: 23px; white-space: nowrap; }
 
 .income__copy { left: 30px; top: 389px; width: 333px; font: 500 16px/20px 'Zen Kaku Gothic New',sans-serif; text-align: center; }
 .income .schedule { top: 509px; height: 184px; padding: 0; overflow: hidden; }
