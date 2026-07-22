@@ -274,7 +274,7 @@
 .income__card-label--schedule span { left: 24px; width: 64px; }
 
 .target {
-  height: 540px;
+  height: 706px;
   background: #d9ffff;
 }
 
@@ -329,71 +329,101 @@
   text-shadow: 0 0 4px rgba(0,0,0,.5);
 }
 
-.target__intro {
+.target-card-group {
   position: absolute;
   z-index: 2;
   left: 30px;
-  top: 165px;
-  width: 330px;
-  height: 69px;
-  margin: 0;
-  color: #3f3f3f;
-  font: 500 16px/normal 'Zen Kaku Gothic New', sans-serif;
-  text-align: center;
+  width: 333px;
 }
 
-.target__intro strong {
-  background: linear-gradient(153.3deg,#46b9bd 20.658%,#0099b4 79.342%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-}
+.target-card-group--required { top: 170px; height: 197px; }
+.target-card-group--welcome { top: 405px; height: 142px; }
 
-.target__rule {
+.target-card {
   position: absolute;
-  z-index: 2;
-  left: 50px;
-  top: 231px;
-  width: 285px;
-  height: 2px;
-  background: linear-gradient(179deg,#46b9bd 20.658%,#0099b4 79.342%);
+  left: 0;
+  top: 13px;
+  width: 333px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  overflow: hidden;
 }
 
-.target .checklist {
-  top: 260px;
-  height: 160px;
-  overflow: hidden;
+.target-card--required { height: 184px; }
+.target-card--welcome { height: 129px; }
+
+.target-card-label {
+  position: absolute;
+  left: 89px;
+  top: 0;
+  width: 155px;
+  height: 26px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  color: #007083;
+  font: 700 16px/normal 'Zen Kaku Gothic New', sans-serif;
+  white-space: nowrap;
+}
+
+.target-card-label span {
+  position: absolute;
+  top: 2px;
+}
+
+.target-card-label--required span { left: 23px; width: 109px; }
+.target-card-label--welcome span { left: 14px; width: 128px; }
+
+.target-list {
+  position: absolute;
+  left: 26px;
+  width: 280.9772px;
+  margin: 0;
   padding: 0;
   list-style: none;
   color: #004f5c;
 }
 
-.target .checklist li {
+.target-list--required { top: 28px; height: 128px; }
+.target-list--welcome { top: 26px; height: 78px; }
+
+.target-list li {
   position: absolute;
-  left: 32.0228px;
+  left: 0;
   width: 280.9772px;
   margin: 0;
   padding: 0 0 0 25.6601px;
   font: 500 15px/normal 'Zen Kaku Gothic New', sans-serif;
+  box-sizing: border-box;
 }
 
-.target .checklist li:nth-child(1) { top: 23px; height: 44px; }
-.target .checklist li:nth-child(2) { top: 74px; height: 28px; line-height: 28px; }
-.target .checklist li:nth-child(3) { top: 109px; height: 28px; line-height: 28px; }
-.target .checklist li::before { content: none; }
-.target .checklist img { position: absolute; left: 0; width: 20.7212px; height: 18.5953px; }
-.target .checklist li:nth-child(1) img { top: 2.2473px; }
-.target .checklist li:nth-child(2) img { top: 5.2473px; }
-.target .checklist li:nth-child(3) img { top: 6.2473px; }
-.target .checklist span { display: block; width: 255.317px; }
+.target-list img {
+  position: absolute;
+  left: 0;
+  width: 20.7212px;
+  height: 18.5953px;
+}
+
+.target-list span { display: block; width: 255.3171px; }
+
+.target-list--required li:nth-child(1) { top: 0; height: 44px; }
+.target-list--required li:nth-child(1) img { top: 2.2473px; }
+.target-list--required li:nth-child(2) { top: 44px; height: 56px; line-height: 28px; }
+.target-list--required li:nth-child(2) img { top: 5.2473px; }
+.target-list--required li:nth-child(3) { top: 100px; height: 28px; line-height: 28px; }
+.target-list--required li:nth-child(3) img { top: 6.2473px; }
+
+.target-list--welcome li:nth-child(1) { top: 0; height: 22px; }
+.target-list--welcome li:nth-child(1) img { top: 2.2473px; }
+.target-list--welcome li:nth-child(2) { top: 22px; height: 56px; line-height: 28px; }
+.target-list--welcome li:nth-child(2) img { top: 5.2473px; }
 
 .target__note {
   position: absolute;
   z-index: 2;
   left: 30px;
-  top: 446px;
+  top: 585px;
   width: 330px;
   height: 69px;
   margin: 0;
