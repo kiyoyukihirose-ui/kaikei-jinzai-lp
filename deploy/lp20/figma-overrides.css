@@ -1,0 +1,61 @@
+/* Figma 105:123 — mobile first view */
+.hero{position:relative;width:393px;height:575px;overflow:hidden;padding:0;background:#dafff5}
+.hero:after{content:none}
+.hero-photo{position:absolute;left:-120px;top:0;width:578px;height:385px;max-width:none;transform:none;object-fit:cover}
+.hero__top-fade{position:absolute;left:0;top:0;width:393px;height:41px;background:linear-gradient(to bottom,#fff,rgba(255,255,255,0))}
+.hero__photo-fade{position:absolute;left:0;top:267px;width:393px;height:91px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff)}
+.hero__white-base{position:absolute;left:0;top:358px;width:393px;height:217px;background:#fff}
+.hero__title-shadow{position:absolute;left:-29px;top:221px;width:451px;height:200px;max-width:none}
+.hero__copy-group{display:contents}
+.hero__underline{position:absolute;left:72px;top:351.172px;width:262.484px;height:12.183px;overflow:hidden;background:linear-gradient(173.62deg,#dba100 0%,#f5ca53 50.9615%,#dba100 100%);box-shadow:1.10753px 1.10753px 4.4301px rgba(0,0,0,.25),inset 0 0 27.6882px rgba(255,166,0,.75)}
+.hero__underline:after{content:"";position:absolute;left:15.505px;top:0;width:232.58px;height:12.183px;border-radius:50%;background:rgba(255,255,255,.75);filter:blur(13.8441px)}
+.hero__underline img{display:none}
+.hero__copy-small,.hero__copy-large{position:absolute;display:block;overflow:visible;margin:0}
+.hero__copy-small{left:76.4301px;top:267px;width:263px;height:47px}
+.hero__copy-large{left:76.4301px;top:296.903225px;width:258px;height:73px}
+.hero__ribbon-visual{position:absolute;left:30px;top:377px;width:334px;height:69px}
+.hero__ribbon-base{position:absolute;left:-2px;top:-2px;width:338px;height:73px;max-width:none}
+.hero__ribbon-glow{position:absolute;left:2px;top:-33px;width:330px;height:137px;max-width:none}
+.hero__ribbon-exact{position:absolute;left:-2px;top:-33px;width:338px;height:137px;max-width:none}
+.hero__ribbon-title,.hero__ribbon-subtitle{position:absolute;left:50%;transform:translateX(-50%);width:max-content;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 4px rgba(0,0,0,.75)}
+.hero__ribbon-title{top:382px;font-size:26.38px}
+.hero__ribbon-subtitle{top:413px;font-size:18px}
+.badges{position:absolute;z-index:2;inset:0;display:block}
+.hero-badge{position:absolute;top:454px;width:99px;height:99px}
+.hero-badge:nth-child(1){left:38.181824px}
+.hero-badge:nth-child(2){left:147px}
+.hero-badge:nth-child(3){left:255.818176px}
+.hero-badge img{position:absolute;inset:0;width:99px;height:99px;max-width:none;border-radius:50%;box-shadow:.883929px .883929px 0 #004f5c}
+.hero-badge:after{content:"";position:absolute;z-index:1;inset:0;border-radius:50%;box-shadow:inset 0 0 5px #209296;pointer-events:none}
+.hero-badge p{position:absolute;z-index:2;top:24.545454px;height:50px;margin:0;color:#fff;font-family:'Noto Serif JP',serif;font-size:17.678572px;font-weight:900;line-height:normal;text-align:center;white-space:nowrap;text-shadow:0 0 3.535714px rgba(0,0,0,.5)}
+.hero-badge:nth-child(1) p{left:22.909086px;width:54px}
+.hero-badge:nth-child(2) p{left:9.818182px;top:22.545454px;width:79px}
+.hero-badge:nth-child(3) p{left:12.272733px;width:75px}
+
+/* Figma 63:371 — accounting staff introduction */
+.intro{position:relative;width:393px;height:320px;overflow:hidden;background:#fff;color:#fff;text-align:center;padding:0}
+.intro__photo{position:absolute;left:-45px;top:-2px;width:484px;height:322px;object-fit:cover;opacity:.4}
+.intro__tint{position:absolute;left:-54px;top:-2px;width:502px;height:322px;background:rgba(29,206,206,.1)}
+.intro__flare{position:absolute;left:14px;top:45px;width:365px;height:131px;pointer-events:none}
+.intro__flare-glow-wrap{position:absolute;left:-25px;top:-30px;width:421px;height:198px}
+.intro__flare-glow{position:absolute;left:-200px;top:-200px;width:821px;height:598px;max-width:none}
+.intro__flare-line-wrap{position:absolute;left:0;top:54px;width:365px;height:36px;overflow:hidden;opacity:.8}
+.intro__flare-line{display:block;width:365px;height:36px;max-width:none}
+.intro__flare-light{position:absolute;left:78px;top:10px;width:206px;height:120px}
+.intro__flare-radius{position:absolute;left:65px;top:-11px;width:232px;height:163px;mix-blend-mode:overlay}
+.figma-filters{position:absolute;overflow:hidden;pointer-events:none}
+.intro__title{position:absolute;z-index:2;left:21px;top:65px;transform:none;width:351px;height:96px;margin:0;font-family:'Noto Serif JP',serif;font-size:22px;font-weight:900;line-height:normal;letter-spacing:0;text-align:center;white-space:nowrap;-webkit-text-stroke:0;paint-order:normal}
+.intro__title span{display:block}
+.intro p.intro__body{position:absolute;z-index:2;left:50%;top:179px;transform:translateX(-50%);width:313px;margin:0;font-family:'Zen Kaku Gothic New',sans-serif;font-size:16px;font-weight:500;line-height:normal;text-align:center;color:#fff;text-shadow:0 1px 2px rgba(0,68,78,.72)}
+.intro:before,.intro:after{content:"";position:absolute;z-index:3;left:0;width:393px;height:35px;pointer-events:none}
+.intro:before{top:-1px;background:linear-gradient(to bottom,#fff,rgba(255,255,255,0))}
+.intro:after{bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff)}
+/* Figma 1:5 — exact mobile header */
+.header{position:relative;z-index:20;width:393px;height:70px;padding:0;display:block;background:linear-gradient(156.7849935379deg,#46b9bd 20.658%,#0099b4 79.342%);filter:drop-shadow(0 2px 2.5px rgba(0,0,0,.25))}
+.header .logo{position:absolute;left:20px;top:11px;width:224px;height:48px;max-width:none;object-fit:cover;box-shadow:none;filter:drop-shadow(0 0 4px rgba(0,0,0,.75))}
+.header .phone{position:absolute;left:255px;top:11px;width:124px;height:48px;padding:0;display:block;overflow:hidden;border:0;border-radius:12px;background:#fff;box-shadow:1px 2px 0 #004f5c,0 0 4px rgba(0,0,0,.5);color:#004f5c;text-decoration:none;font-family:'Noto Serif JP',serif;font-weight:700;line-height:normal;text-shadow:0 0 1px rgba(0,0,0,.25)}
+.phone__icon{position:absolute;left:7px;top:12px;width:23px;height:22.983356px}
+.phone__icon svg{position:absolute;left:-3px;top:-3px;width:29px;height:28.983356px;overflow:visible;fill:currentColor}
+.phone__prefix,.phone__main{position:absolute;left:32px;display:block;margin:0;white-space:nowrap}
+.phone__prefix{top:6px;font-size:12px}
+.phone__main{top:19px;font-size:14px}

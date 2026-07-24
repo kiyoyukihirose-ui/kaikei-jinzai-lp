@@ -1,0 +1,433 @@
+.income,
+.target {
+  position: relative;
+  width: 393px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.income {
+  height: 762px;
+  background: #fff;
+}
+
+.income__stripe {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  height: 103px;
+  background: linear-gradient(90deg, rgba(29,206,206,.2), rgba(29,206,206,0));
+  transform: rotate(-30deg);
+  transform-origin: center;
+}
+
+.income__stripe--1 { left: -173px; top: 140px; width: 480px; }
+.income__stripe--2 { left: -60px; top: 275px; width: 619px; height: 186px; }
+.income__stripe--3 { left: -205px; top: 520px; width: 619px; }
+.income__stripe--4 { left: 205px; top: 620px; width: 283px; height: 98px; }
+
+.income__glow {
+  position: absolute;
+  z-index: 0;
+  left: 2px;
+  top: 333px;
+  width: 389px;
+  height: 190px;
+  max-width: none;
+}
+
+.income .ribbon,
+.target .ribbon {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 363px;
+  height: 69px;
+  margin: 0;
+  padding: 5px 0 6px 30px;
+  border-radius: 0 100px 100px 0;
+  background: linear-gradient(155.4deg, #46b9bd 20.658%, #0099b4 79.342%);
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: normal;
+  text-align: left;
+  text-shadow: 0 0 4px rgba(0,0,0,.5);
+}
+
+.income .ribbon { top: 64px; }
+
+.income .card,
+.target .card {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  width: 333px;
+  margin: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+}
+
+.income .card small {
+  position: absolute;
+  z-index: 3;
+  left: 111px;
+  top: -13px;
+  width: 111px;
+  height: 26px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  color: #007083;
+  font: 700 16px/26px 'Zen Kaku Gothic New', sans-serif;
+  text-align: center;
+}
+
+.income .example {
+  top: 178px;
+  height: 184px;
+  padding: 0;
+  color: #004f5c;
+  text-align: center;
+}
+
+.example p { position: absolute; width: 100%; margin: 0; }
+.example__lead { top: 42px; font: 500 16px/normal 'Zen Kaku Gothic New', sans-serif; }
+.example__formula { top: 79px; font: 700 18px/normal Inter, sans-serif; white-space: nowrap; }
+.example__total { top: 119px; font: 700 16px/normal 'Zen Kaku Gothic New', sans-serif; white-space: nowrap; }
+.example .gold { background: linear-gradient(166.2deg,#dba100 20.658%,#f5ca53 50.564%,#dba100 79.342%); background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+.example .gold--large { font-family: Inter, sans-serif; font-size: 24px; font-weight: 700; }
+.example .gold--label { font-family: 'Zen Kaku Gothic New', sans-serif; }
+.example .operator { margin: 0 4px; color: #004f5c; font-size: 20px; }
+
+.income__copy {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  top: 389px;
+  width: 333px;
+  margin: 0;
+  color: #3f3f3f;
+  font: 500 16px/20px 'Zen Kaku Gothic New', sans-serif;
+  text-align: center;
+}
+
+.income .schedule {
+  top: 509px;
+  height: 184px;
+  padding: 0;
+}
+
+.schedule__timeline {
+  position: absolute;
+  left: 20px;
+  top: 41px;
+  width: 7px;
+  height: 103px;
+}
+
+.income .schedule dl {
+  position: absolute;
+  left: 37px;
+  top: 27px;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  width: 273px;
+  margin: 0;
+  color: #004f5c;
+  line-height: 34px;
+}
+
+.income .schedule dt { font: 700 19px/34px 'Zen Kaku Gothic New', sans-serif; }
+.income .schedule dd { margin: 0; padding: 0; border: 0; font: 500 15px/34px 'Zen Kaku Gothic New', sans-serif; white-space: nowrap; }
+
+/* Figma 1:20 — exact child-node geometry. */
+.income__stripe {
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  transform: none;
+  transform-origin: center;
+}
+
+.income__stripe::before {
+  content: '';
+  display: block;
+  flex: none;
+  transform: rotate(-30deg);
+}
+
+.income__stripe--1 { left: -142.3117px; top: 33.25px; width: 467.103px; height: 329.025px; }
+.income__stripe--1::before { width: 480.0211px; height: 102.7851px; background: linear-gradient(-90deg,rgba(29,206,206,.2),rgba(29,206,206,0)); }
+.income__stripe--2 { left: -37.7933px; top: 143.16px; width: 629.181px; height: 470.687px; }
+.income__stripe--2::before { width: 619.087px; height: 186.0721px; background: linear-gradient(90deg,rgba(29,206,206,.2),rgba(29,206,206,0)); }
+.income__stripe--3 { left: -173px; top: 387px; width: 587.538px; height: 398.558px; }
+.income__stripe--3::before { width: 619.087px; height: 102.7851px; background: linear-gradient(-90deg,rgba(29,206,206,.2),rgba(29,206,206,0)); }
+.income__stripe--4 { left: 248px; top: 522px; width: 293.44px; height: 225.768px; }
+.income__stripe--4::before { width: 282.4854px; height: 97.6013px; background: linear-gradient(90deg,rgba(29,206,206,.2),rgba(29,206,206,0)); }
+
+.income__glow { left: 3px; top: 333px; width: 388px; height: 190px; }
+
+.income__ribbon-bg {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 66px;
+  width: 363px;
+  height: 69px;
+  border-radius: 0 100px 100px 0;
+  background: linear-gradient(155.4053deg,#46b9bd 20.658%,#0099b4 79.342%);
+}
+
+.income__heading {
+  position: absolute;
+  z-index: 3;
+  left: 30px;
+  top: 71px;
+  width: 280px;
+  height: 58px;
+  margin: 0;
+  color: #fff;
+  font: 900 20px/normal 'Noto Serif JP',serif;
+  text-align: left;
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(0,0,0,.5);
+}
+
+.income .example { top: 178px; height: 184px; padding: 0; overflow: hidden; text-align: left; }
+.income .example p { width: auto; }
+.example__lead { left: 58px; top: 40px; width: 210px !important; height: 23px; font: 500 16px/normal 'Zen Kaku Gothic New',sans-serif; color: #004f5c; white-space: nowrap; }
+
+.example__gold {
+  position: absolute;
+  display: block;
+  height: 29px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter,sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+  text-shadow: none;
+  filter: drop-shadow(.5px .5px 0 #634500);
+}
+
+.income .example__gold small { position: static; display: inline; width: auto; height: auto; border-radius: 0; background: none; box-shadow: none; color: inherit; font: inherit; font-size: 18px; line-height: normal; }
+.example__gold b { font-size: 24px; line-height: normal; }
+.example__gold--wage { left: 22px; top: 77px; width: 118px; background-image: linear-gradient(149.3828deg,#dba100 20.658%,#f5ca53 50.564%,#dba100 79.342%); }
+.example__gold--hours { left: 166px; top: 77px; width: 52px; background-image: linear-gradient(126.6727deg,#dba100 20.658%,#f5ca53 50.564%,#dba100 79.342%); }
+.example__gold--days { left: 244px; top: 77px; width: 68px; background-image: linear-gradient(134.2382deg,#dba100 20.658%,#f5ca53 50.564%,#dba100 79.342%); }
+.example__gold--total { left: 92px; top: 115px; width: 76px; background-image: linear-gradient(137.4216deg,#dba100 20.658%,#f5ca53 50.564%,#dba100 79.342%); font-size: 24px; }
+.example__operator { position: absolute; top: 80px; width: 14px; height: 24px; color: #004f5c; font: 700 20px/normal Inter,sans-serif; }
+.example__operator--1 { left: 146px; }
+.example__operator--2 { left: 224px; }
+.example__formula-row { position: absolute; left: 22px; top: 77px; width: 290px; height: 29px; display: flex; align-items: flex-start; gap: 6px; white-space: nowrap; }
+.example__formula-row .example__gold { position: static; flex: 0 0 auto; width: auto; height: 29px; }
+.example__formula-row .example__operator { position: static; flex: 0 0 auto; width: auto; height: 24px; margin-top: 3px; }
+.example__equal,.example__suffix { position: absolute; top: 120px; height: 23px; color: #004f5c; font: 700 16px/normal 'Zen Kaku Gothic New',sans-serif; white-space: nowrap; }
+.example__equal { left: 56px; width: 32px; }
+.example__suffix { left: 172px; width: 112px; }
+.example__total-row { position: absolute; left: 56px; top: 115px; width: 228px; height: 29px; display: flex; align-items: baseline; gap: 4px; white-space: nowrap; }
+.example__total-row .example__equal,.example__total-row .example__gold--total,.example__total-row .example__suffix { position: static; flex: 0 0 auto; width: auto; height: auto; }
+
+.income__card-label {
+  position: absolute;
+  z-index: 3;
+  left: 141px;
+  top: 165px;
+  width: 111px;
+  height: 26px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  color: #007083;
+  font: 700 16px/normal 'Zen Kaku Gothic New',sans-serif;
+  text-align: center;
+}
+.income__card-label span { position: absolute; left: 32px; top: 2px; width: 47px; height: 23px; white-space: nowrap; }
+
+.income__copy { left: 30px; top: 389px; width: 333px; font: 500 16px/20px 'Zen Kaku Gothic New',sans-serif; text-align: center; }
+.income .schedule { top: 509px; height: 184px; padding: 0; overflow: hidden; }
+.schedule__timeline { left: 20px; top: 41px; width: 7px; height: 103px; }
+.schedule__rows { position: absolute; left: 37px; top: 27px; width: 273px; height: 130px; color: #004f5c; }
+.schedule__row { position: absolute; left: 0; height: 34px; white-space: nowrap; }
+.schedule__row:nth-child(1) { top: 0; width: 273px; }
+.schedule__row:nth-child(2) { top: 32px; width: 97px; }
+.schedule__row:nth-child(3) { top: 64px; width: 227px; }
+.schedule__row:nth-child(4) { top: 96px; width: 273px; }
+.schedule__row b,.schedule__row span { position: absolute; top: 0; height: 34px; line-height: 34px; }
+.schedule__row b { left: 0; font-family: 'Zen Kaku Gothic New',sans-serif; font-size: 19px; font-weight: 700; }
+.schedule__row span { font-family: 'Zen Kaku Gothic New',sans-serif; font-size: 15px; font-weight: 500; }
+.schedule__row:nth-child(1) span { left: 70px; }
+.schedule__row:nth-child(2) span { left: 67px; }
+.schedule__row:nth-child(3) span { left: 66px; }
+.schedule__row:nth-child(4) span { left: 67px; }
+.income__card-label--schedule { top: 496px; }
+.income__card-label--schedule span { left: 24px; width: 64px; }
+
+.target {
+  height: 706px;
+  background: #d9ffff;
+}
+
+.target__top-fade {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 393px;
+  height: 35px;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#fff 100%);
+  transform: rotate(180deg);
+  transform-origin: center;
+  pointer-events: none;
+}
+
+.target__glow {
+  position: absolute;
+  z-index: 0;
+  left: -67px;
+  top: 87px;
+  width: 528px;
+  height: 507px;
+  max-width: none;
+}
+
+.target__ribbon-bg {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 61px;
+  width: 363px;
+  height: 69px;
+  border-radius: 0 100px 100px 0;
+  background: linear-gradient(155.4053deg, #46b9bd 20.658%, #0099b4 79.342%);
+}
+
+.target__heading {
+  position: absolute;
+  z-index: 3;
+  left: 30px;
+  top: 81px;
+  width: 160px;
+  height: 29px;
+  margin: 0;
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: normal;
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(0,0,0,.5);
+}
+
+.target-card-group {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  width: 333px;
+}
+
+.target-card-group--required { top: 170px; height: 197px; }
+.target-card-group--welcome { top: 405px; height: 142px; }
+
+.target-card {
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 333px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+
+.target-card--required { height: 184px; }
+.target-card--welcome { height: 129px; }
+
+.target-card-label {
+  position: absolute;
+  left: 89px;
+  top: 0;
+  width: 155px;
+  height: 26px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  color: #007083;
+  font: 700 16px/normal 'Zen Kaku Gothic New', sans-serif;
+  white-space: nowrap;
+}
+
+.target-card-label span {
+  position: absolute;
+  top: 2px;
+}
+
+.target-card-label--required span { left: 23px; width: 109px; }
+.target-card-label--welcome span { left: 14px; width: 128px; }
+
+.target-list {
+  position: absolute;
+  left: 26px;
+  width: 280.9772px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #004f5c;
+}
+
+.target-list--required { top: 28px; height: 128px; }
+.target-list--welcome { top: 26px; height: 78px; }
+
+.target-list li {
+  position: absolute;
+  left: 0;
+  width: 280.9772px;
+  margin: 0;
+  padding: 0 0 0 25.6601px;
+  font: 500 15px/normal 'Zen Kaku Gothic New', sans-serif;
+  box-sizing: border-box;
+}
+
+.target-list img {
+  position: absolute;
+  left: 0;
+  width: 20.7212px;
+  height: 18.5953px;
+}
+
+.target-list span { display: block; width: 255.3171px; }
+
+.target-list--required li:nth-child(1) { top: 0; height: 44px; }
+.target-list--required li:nth-child(1) img { top: 2.2473px; }
+.target-list--required li:nth-child(2) { top: 44px; height: 56px; line-height: 28px; }
+.target-list--required li:nth-child(2) img { top: 5.2473px; }
+.target-list--required li:nth-child(3) { top: 100px; height: 28px; line-height: 28px; }
+.target-list--required li:nth-child(3) img { top: 6.2473px; }
+
+.target-list--welcome li:nth-child(1) { top: 0; height: 22px; }
+.target-list--welcome li:nth-child(1) img { top: 2.2473px; }
+.target-list--welcome li:nth-child(2) { top: 22px; height: 56px; line-height: 28px; }
+.target-list--welcome li:nth-child(2) img { top: 5.2473px; }
+
+.target__note {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  top: 585px;
+  width: 330px;
+  height: 69px;
+  margin: 0;
+  color: #3f3f3f;
+  font: 500 16px/normal 'Zen Kaku Gothic New', sans-serif;
+  text-align: center;
+}

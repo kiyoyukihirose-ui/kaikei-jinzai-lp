@@ -1,0 +1,7 @@
+/* Uniform responsive scaling: 393px Figma canvas, capped at 650px. */
+:root{--lp-scale:calc(min(100vw,650px) / 393px)}
+html,body{overflow-x:hidden}
+.page,.sticky-cta-shell{zoom:var(--lp-scale)}
+.page{width:393px;max-width:none}
+.sticky-cta-shell{width:393px}
+@media(min-width:650px){:root{--lp-scale:1.6539440204}}
